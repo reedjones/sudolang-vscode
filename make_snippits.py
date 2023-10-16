@@ -138,6 +138,7 @@ def dump(what, where):
 
 def main():
   targets = [i for i in get_files() if i['name'].endswith('.sudo')]
+  snippits = []
   for target in targets:
     print(f"loading {target['name']}")
     d = parse_content(target['content'])
@@ -145,6 +146,18 @@ def main():
     new_path = target['path'].with_suffix(".json")
     dump(snippit, new_path)
     print(f"Wrote snippit {d['title']} to {new_path} \n")
+    snippit_entry = {
+      'language' : 'sudolang',
+      'path': f'./snippits/{os.path.basename(str(new_path))}'
+    }
+    snippits.append(snippit_entry)
+
+
+  print(f"got {len(snippits)} snippits")
+  dump(snippits, "snippit_out.json")
+    
+
+
 
 
 

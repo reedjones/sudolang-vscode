@@ -1,0 +1,83 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "SudoLang",
+  "patterns": [
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#strings"
+    }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.sudolang",
+          "match": "\\b(if|else|otherwise|throw|error|while|loop|where|for each|in|function|range|match|case|default|defaults|constraint|constraints|require|requirements|warn|warnings|interface)\\b"
+        },
+        {
+          "name": "keyword.control.sudolang",
+          "match": "\\b/[a-zA-Z0-9]+\\b"
+        },
+        {
+          "name": "variable.language.sudolang",
+          "match": "\\$\\w+"
+        },
+        {
+          "name": "keyword.operator.assignment.sudolang",
+          "match": "="
+        },
+        {
+          "name": "keyword.operator.logical.sudolang",
+          "match": "\\b(&&|\\|\\||!|xor)\\b"
+        },
+        {
+          "name": "keyword.operator.math.sudolang",
+          "match": "[-+*/^%]"
+        },
+        {
+          "name": "keyword.operator.math.sudolang",
+          "match": "\\b(cap|cup))\\b"
+        },
+        {
+          "name": "keyword.command.sudolang",
+          "match": "\\b(ask|log|take|select|describe|explain|instruct|run|begin)\\b"
+        },
+        {
+          "name": "keyword.modifier.sudolang",
+          "match": ":\\w+=\\w+"
+        },
+        {
+          "name": "keyword.operator.arrow.sudolang",
+          "match": "=>"
+        }
+      ]
+    },
+    "strings": {
+      "patterns": [
+        {
+          "name": "punctuation.definition.string.begin.sudolang",
+          "match": "'"
+        },
+        {
+          "name": "punctuation.definition.string.end.sudolang",
+          "match": "'"
+        },
+        {
+          "name": "constant.language.escape.sudolang",
+          "match": "\\\\\\$"
+        },
+        {
+          "name": "constant.language.template.expression.begin.sudolang",
+          "match": "\\$\\{"
+        },
+        {
+          "name": "constant.language.template.expression.end.sudolang",
+          "match": "\\}"
+        }
+      ]
+    }
+  },
+  "scopeName": "source.sudo"
+}
