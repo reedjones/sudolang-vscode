@@ -2,6 +2,11 @@
   "name": "sudolang-vscode",
   "displayName": "SudoLang & Snippits",
   "description": "sudolang Language Support & Snippits",
+  "publisher": "reedjones760",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reedjones/sudolang-vscode"
+  },
   "version": "1.0.10",
   "engines": {
     "vscode": "^1.76.0"
