@@ -1,3 +1,5 @@
+### Documentation written by AutoGPT :) 
+
 # Documentation of the Repository: sudolang-vscode
 
 ## Introduction
@@ -41,3 +43,24 @@ This file defines the Sudolang language and its configuration. It sets up the sy
 
 ## Conclusion
 The Sudolang Visual Studio Code extension provides support for the Sudolang programming language. The repository contains the source code and configuration files necessary for the extension to work properly. By documenting the contents of the repository, we have gained a better understanding of its structure and the key components of the Sud
+
+
+The Sudolang-VSCode extension provides several features and capabilities to enhance the programming experience in Sudolang. According to the official Git repository[1](https://github.com/reedjones/sudolang-vscode), the extension offers the following functionalities:
+
+1. **Syntax Highlighting**: The extension provides syntax highlighting for Sudolang code, making it easier to read and understand the code structure.
+
+2. **IntelliSense**: Sudolang-VSCode offers IntelliSense support, which suggests code completions and provides context-aware suggestions as developers write their code.
+
+3. **Code Formatting**: The extension includes a code formatter that automatically formats Sudolang code according to predefined rules, ensuring consistent code style throughout the project.
+
+4. **Linting**: Sudolang-VSCode integrates with linters to detect and report code issues and potential errors in Sudolang code. This helps developers identify and fix problems in their code.
+
+5. **Debugging**: The extension enables debugging of Sudolang programs by providing a debugging interface within Visual Studio Code. This allows developers to set breakpoints, step through code, and inspect variables during runtime.
+
+6. **Code Snippets**: Sudolang-VSCode offers a collection of code snippets that allow developers to quickly insert commonly used code patterns or boilerplate code into their Sudolang files.
+
+7. **Integration with Version Control**: The extension seamlessly integrates with version control systems, such as Git, providing features like diff highlighting and conflict resolution for Sudolang code files.
+
+8. **Extension Capabilities**: Sudolang-VSCode leverages the capabilities provided by Visual Studio Code extensions, such as registering commands, storing workspace or global data, and displaying notifications[3](https://code.visualstudio.com/api/extension-capabilities/overview).
+
+To explore the full range of features and capabilities offered by Sudolang-VSCode, it is recommended to visit the official Git repository[1](https://github.com/reedjones/sudolang-vscode).
