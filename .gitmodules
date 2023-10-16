@@ -1,0 +1,3 @@
+[submodule "sudolang-llm-support"]
+	path = sudolang-llm-support
+	url = git@github.com:paralleldrive/sudolang-llm-support.git

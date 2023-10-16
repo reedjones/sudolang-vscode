@@ -1,0 +1,114 @@
+{
+  "name": "sudolang-vscode",
+  "displayName": "SudoLang & Snippits",
+  "description": "sudolang Language Support & Snippits",
+  "publisher": "reedjones760",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reedjones/sudolang-vscode"
+  },
+  "version": "1.0.10",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "sudolang",
+        "path": "./snippits/ai-friend.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/autodux.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/codebot.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/experience-levels.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/fibonacci.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/improve-anything.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/learn-sudolang.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/life-coach.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/music-recommender.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/newsbot.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/prompt-crafter.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/riteway.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/robot.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/studybot.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/teach.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/todo.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/vector-search.json"
+      },
+      {
+        "language": "sudolang",
+        "path": "./snippits/whispers.json"
+      }
+    ],
+    "languages": [
+      {
+        "id": "sudolang",
+        "aliases": [
+          "SudoLang",
+          "sudolang"
+        ],
+        "extensions": [
+          ".sudo",
+          ".sudo.md"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "sudolang",
+        "scopeName": "source.sudo",
+        "path": "./syntaxes/sudolang.tmLanguage.json"
+      }
+    ]
+  }
+}
